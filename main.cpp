@@ -242,7 +242,7 @@ int main()
 
     } //main loop
     
-    delete [] snake;
+    
     delete gameOver;
     delete gameOver2;
 
