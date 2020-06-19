@@ -241,6 +241,10 @@ int main()
         window.display();
 
     } //main loop
+    
+    delete [] snake;
+    delete gameOver;
+    delete gameOver2;
 
     return 0;
 }
