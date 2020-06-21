@@ -130,7 +130,7 @@ int main()
                 if (turnD != 0)
                 {
                     snake[0].turn(turnD);
-                    if (!game && !failed)
+                    if (!game && !failed  && turnD != 4)
                     {
                         game = true;
                         snake[1].turn(2);
@@ -241,8 +241,8 @@ int main()
         window.display();
 
     } //main loop
-    
-    
+
+
     delete gameOver;
     delete gameOver2;
 
